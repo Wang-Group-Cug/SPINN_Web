@@ -25,9 +25,9 @@ st.markdown("---")
 st.subheader('Single sample need to be predicted hydraulic parameters:')
 st.text('Please enter Soil Texture and Bulk density.')
 with st.form('Texture & BD'):
-    sand = st.number_input('Sand×100%')
-    silt = st.number_input('Silt×100%')
-    clay = st.number_input('Clay×100%')
+    sand = st.number_input('Sand×100%, (eg 0.41)')
+    silt = st.number_input('Silt×100%, (eg 0.32)')
+    clay = st.number_input('Clay×100%, (eg 0.27)')
     bd   = st.number_input('Bulk Density(g/cm^3)')
     submitted=st.form_submit_button("PTF calculates hydraulic parameter")
 
