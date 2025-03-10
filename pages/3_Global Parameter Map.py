@@ -6,7 +6,7 @@ import streamlit as st
 # # current_path = Path(__file__).parent.absolute()
 # # print(current_path)
 
-st.title('Coming soon )
+st.title('Coming soon' )
 # st.image('./Global_Map/Global_Parameter_Map_FXW-M3.jpg', caption='Global hydraulic parameter map estimated by FXW-M3 PTF (Zhou et al. 2025)')
 
 # st.markdown('1. If you need globally distributed soil hydraulic parameters, please visit (www.***.com). Due to the large size of the maps, this page does not offer the tif file downloads.')
