@@ -67,7 +67,7 @@ def M3_PTF(Texture):
             out=self.seq(x)
             out2=torch.zeros(out.shape)
             out2[:, [0]] = -4 + 8 * out[:, [0]]      # Kha
-            out2[:, [1]] = -4 + 8.8 * out[:, [1]]      # Ks
+            out2[:, [1]] = -4 + 8.5 * out[:, [1]]      # Ks
             return out2
     FNN=FNN_test(input_size=4,hidden_size=374,output_size=2,layers=3)
     FNN.to(device=device)
