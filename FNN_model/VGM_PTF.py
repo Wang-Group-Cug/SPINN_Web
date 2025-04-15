@@ -66,7 +66,7 @@ def VGM_PTF(Texture):
             '''x[batch_size,x_num]'''
             out=self.seq(x)
             out2=torch.zeros(out.shape)
-            out2[:, [0]] = -4 + 8 * out[:, [0]]      # Kha
+            out2[:, [0]] = -4 + 8.5 * out[:, [0]]      # Ks
             
             return out2
     FNN=FNN_test(input_size=4,hidden_size=156,output_size=1,layers=2)
