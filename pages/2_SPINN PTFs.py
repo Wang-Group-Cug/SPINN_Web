@@ -72,19 +72,19 @@ if uploaded_file:
     st.download_button(
     label="Download VGM Parameter",
     data=VGM_Para.to_csv().encode("utf-8"),
-    file_name='VGM_Para.csv',
+    file_name='VGM_Parameter.csv',
     mime='text/csv')
 
     st.download_button(
     label="Download FXW-M3 Parameter",
     data= M3_Para.to_csv().encode("utf-8"),
-    file_name='FXW-M3_Para.csv',
+    file_name='FXW_M3_Parameter.csv',
     mime='text/csv')
 
     st.download_button(
     label="Download B-FXW Parameter",
     data= B_FXW_Para.to_csv().encode("utf-8"),
-    file_name='B-FXW_Para.csv',
+    file_name='B_FXW_Parameter.csv',
     mime='text/csv')
 
 
