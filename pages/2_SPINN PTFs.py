@@ -36,7 +36,7 @@ if submitted:
       
 
       [VGM_Para,nan]=VGM_PTF([[sand,silt,clay,bd]])
-       VGM_Para = np.round(VGM_Para,4)
+      VGM_Para = np.round(VGM_Para,4)
       st.write("VGM:","alpha=",VGM_Para[0],'n=',VGM_Para[1],'θr=',VGM_Para[2],'θs=',VGM_Para[3],'Ks=',VGM_Para[4]) 
       
       [M3_Para,nan]=M3_PTF([[sand,silt,clay,bd]])
